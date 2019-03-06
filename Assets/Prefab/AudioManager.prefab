@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1627887256678274}
+  m_IsPrefabAsset: 1
+--- !u!1 &1627887256678274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4655797975913968}
+  - component: {fileID: 114513252493612576}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4655797975913968
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1627887256678274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114513252493612576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1627887256678274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ab6c765c259df845a6b8fa43bb67af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sounds:
+  - clip: {fileID: 8300000, guid: 24a7820d02958c047887da3776cb6e18, type: 3}
+    name: Grab
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: 243480929111807114, guid: d48aff705b626594eae3702b75447339,
+      type: 2}
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 085d3ed2a6ff2784e98cbf269db72102, type: 3}
+    name: Drop
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: 243480929111807114, guid: d48aff705b626594eae3702b75447339,
+      type: 2}
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 438d00b348bbacf4d886be17b69aa269, type: 3}
+    name: Death
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: 243480929111807114, guid: d48aff705b626594eae3702b75447339,
+      type: 2}
+    source: {fileID: 0}
+  - clip: {fileID: 8300000, guid: 241a4ee85392e1f4b9bfc04027acedb3, type: 3}
+    name: Death_alone
+    volume: 1
+    pitch: 1
+    loop: 0
+    mixerGroup: {fileID: 243480929111807114, guid: d48aff705b626594eae3702b75447339,
+      type: 2}
+    source: {fileID: 0}
